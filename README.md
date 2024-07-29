@@ -6,7 +6,7 @@ It is based off work done using [YorLang](https://anoniscoding.github.io/yorlang
 
 
 ```
-  jẹki orukọ = "Daramọla"
+  jẹki orukọ : str = "Daramọla"
 
   sọpe("Orukọ mi ni ", orukọ)
 ```
