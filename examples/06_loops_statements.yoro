@@ -15,21 +15,22 @@ iṣẹ pataki() -> int {
 
     sọpe("Again using a while loop");
 
-    jẹki ka : int = 0
-
-    nigbati (ka < 10) {
-
-        ṣe (ka == 8){
+    jẹki numba : int = 15;
+    nigbati numba > 5 {
+        sọpe(numba);
+        numba = numba - 1;
+        ṣe numba == 10 {
             kuro;
         }
+    }
 
-        tabi ṣe (ka == 3) {
+    numba : int = 0;
+    nigbati numba < 10 {
+        ṣe numba == 2 {
             tẹsiwaju;
         }
-
-        ka = ka + 1
-
-        sọpe(ka)
+        numba = numba + 1;
+        sọpe(numba);
     }
 
     pada 0;
